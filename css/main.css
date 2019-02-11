@@ -25,6 +25,12 @@ body {
   height: 100vh;
 }
 
+.container_small {
+  width: 100%;
+  height: 50vw;
+  margin: auto;
+}
+
 .bg-grey {
   background-color: #fafafa;
 }
@@ -98,10 +104,62 @@ header .showcase::before {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-size: 65vh;
+  font-size: 35vw;
   font-weight: 800;
   opacity: .05;
 }
 
 
 /* MAIN */
+
+/* SECTION ABOUT */
+
+#about {
+  position: relative;
+}
+
+#about .showcase {
+  position: absolute;
+  right: 7vw;
+  bottom: 15vw;
+  width: 30vw;
+  /* height: 30vh; */
+  padding: 1rem;
+}
+
+#about .showcase h2 {
+  font-size: 5vw;
+  color: var(--dark-grey);
+  font-weight: 800;
+}
+
+#about .showcase p {
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+#about img {
+  position: absolute;
+  bottom: 0;
+  left: 20vw;
+  width: 30vw;
+}
+
+#about::before {
+  content: "";
+  position: absolute;
+  top: 8vh;
+  left: 13vw;
+  right: 24vw;
+  bottom: 8vh;
+  border: .8vw solid #2046f2;
+}
+
+#about .author {
+  position: absolute;
+  right: 27vw;
+  bottom: 6vh;
+  font-family: "Allura", cursive;
+  font-size: 2.5vw;
+  font-weight: 500;
+}
