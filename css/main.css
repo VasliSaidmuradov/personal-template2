@@ -1,6 +1,6 @@
 @import "normalize.css";
 @import "myresets.css";
-/* @import "fonts.css"; */
+@import "fonts.css";
 @import 'https://fonts.googleapis.com/css?family=Allura|Merriweather+Sans:400,700,800';
 
 :root {
@@ -61,7 +61,8 @@ body {
 
 .navigation .nav_menu {
   float: right;
-  width: 500px;
+  width: 50vw;
+  font-size: 1rem;
 }
 
 .navigation .nav_menu a:hover {
@@ -78,7 +79,7 @@ header .showcase {
 
 header .showcase span {
   color: #fff;
-  font-size: 15vw;
+  font-size: 14vw;
   font-weight: 700;
   position: absolute;
   top: 50%;
@@ -97,7 +98,10 @@ header .showcase::before {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-size: 40vw;
+  font-size: 65vh;
   font-weight: 800;
   opacity: .05;
 }
+
+
+/* MAIN */
