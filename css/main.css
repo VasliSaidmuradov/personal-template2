@@ -67,7 +67,7 @@ body {
 
 .navigation .nav_menu {
   float: right;
-  width: 50vw;
+  width: 40vw;
   font-size: 1rem;
 }
 
@@ -122,14 +122,15 @@ header .showcase::before {
   position: absolute;
   right: 7vw;
   bottom: 15vw;
-  width: 30vw;
+  width: 27.5vw;
   /* height: 30vh; */
   padding: 1rem;
+  line-height: 1.5;
 }
 
-#about .showcase h2 {
-  font-size: 5vw;
-  color: var(--dark-grey);
+#about .showcase h3 {
+  font-size: 4vw;
+  color: var(--medium-grey);
   font-weight: 800;
 }
 
@@ -162,4 +163,115 @@ header .showcase::before {
   font-family: "Allura", cursive;
   font-size: 2.5vw;
   font-weight: 500;
+}
+
+
+
+
+/* PORTFOLIO - WORKS */
+#portfolio {
+  position: relative;
+}
+
+#portfolio::before {
+  content: "";
+  position: absolute;
+  top: 14vh;
+  left: 20vw;
+  right: 16vw;
+  bottom: 9vh;
+  border: .8vw solid #2046f2;
+}
+
+#portfolio .work_list {
+  position: absolute;
+  top: 25vh;
+  bottom: 20vh;
+  left: 8vw;
+  right: 8vw;
+  /* background-color: #aaa; */
+}
+
+#portfolio .work_item {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+#portfolio .work_desc {
+  width: 30vw;
+  /* height: 50%; */
+  background-color: #fff;
+  align-self: center;
+  padding: 1vw 0;
+  line-height: 1.5;
+
+}
+
+#portfolio .work_desc h3 {
+  font-size: 4vw;
+  color: var(--medium-grey);
+  font-weight: 800;
+}
+
+#portfolio .work_desc p {
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+#portfolio .work_img {
+  align-self: center;
+  width: 45vw;
+  border: 0;
+  box-shadow: .08vw .51vw 1vw .5vw rgba(0, 0, 0, 0.1);
+}
+
+#portfolio img {
+  float: right;
+  width: 100%;
+}
+
+#portfolio .work_link {
+  display: inline-block;
+  position: absolute;
+  bottom: 5vh;
+}
+
+#portfolio .work_link::after {
+  /* text-decoration-line: underline; */
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 1px;
+  background-color: #2046f2;
+  transition: transform .2s ease-out;
+}
+
+#portfolio .work_link:hover::after {
+  /* height: 3px; */
+  transform: translateY(3px) scaleY(1);
+}
+
+#portfolio .work_nav {
+  display: flex;
+  justify-content: space-between;
+  width: 5vw;
+  position: absolute;
+  bottom: 4vh;
+  left: 50%;
+}
+
+#portfolio .work_nav_item {
+  width: .7rem;
+  height: .7rem;
+  background-color: var(--base);
+  /* border-radius: 50%; */
+  align-self: center;
+}
+
+#portfolio .work_nav .active {
+  background-color: #fff;
+  border: 2px solid var(--base);
 }

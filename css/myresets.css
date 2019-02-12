@@ -9,3 +9,15 @@ ol {
   padding: 0;
   margin: 0;
 }
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2046f2;
+  font-weight: 700;
+
+}
