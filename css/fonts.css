@@ -16,3 +16,17 @@
   margin: 5vw 0;
   /* padding: 5vw 0; */
 }
+
+.secondary_header {
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--medium-grey);
+  margin: .5vw 0;
+}
+
+.basic_par {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
