@@ -193,7 +193,7 @@ header .showcase::before {
 #about .author {
   position: absolute;
   right: 27vw;
-  bottom: 6vh;
+  bottom: 10vh;
   font-family: "Allura", cursive;
   font-size: 2.5vw;
   font-weight: 500;
@@ -408,4 +408,22 @@ header .showcase::before {
   margin-top: 1.5rem;
   font-weight: 700;
   margin-left: auto;
+}
+
+
+/* FOOTER */
+
+footer .footer_wrap {
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .nav_logo_text {
+  color: var(--base);
+  font-size: 2vw;
+  font-weight: 800;
 }
