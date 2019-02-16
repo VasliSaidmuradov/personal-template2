@@ -405,17 +405,19 @@ header .showcase {
 
 /* FOOTER */
 
-footer .footer_wrap {
-  width: 80%;
-  height: 4rem;
-  line-height: 4rem;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
+footer {
+  .footer_wrap {
+    width: 80%;
+    height: 4rem;
+    line-height: 4rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
 
-footer .nav_logo_text {
-  color: var(--base);
-  font-size: 2vw;
-  font-weight: 800;
+  .nav_logo_text {
+    color: var(--base);
+    font-size: 2vw;
+    font-weight: 800;
+  }
 }
