@@ -71,6 +71,7 @@ body {
 
 
 /* HEADER and NAVIGATION */
+
 .navigation {
   width: 80%;
   height: 15vh;
@@ -155,7 +156,6 @@ header .showcase {
     right: 7vw;
     bottom: 15vw;
     width: 27.5vw;
-    /* height: 30vh; */
     padding: 1rem;
     line-height: 1.5;
 
@@ -199,6 +199,7 @@ header .showcase {
 }
 
 /* PORTFOLIO - WORKS */
+
 #portfolio {
   position: relative;
 
@@ -218,7 +219,6 @@ header .showcase {
 
   .work_desc {
     width: 30vw;
-    /* height: 50%; */
     background-color: #fff;
     align-self: center;
     padding: 1vw 0;
@@ -272,7 +272,6 @@ header .showcase {
     width: .7rem;
     height: .7rem;
     background-color: var(--base);
-    /* border-radius: 50%; */
     align-self: center;
   }
 }
@@ -294,9 +293,7 @@ header .showcase {
   .blog_post_wrap {
     width: 80%;
     margin: auto;
-    /* background-color: aquamarine; */
     display: flex;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     justify-content: space-between;
 
     .blog_post_img,
@@ -346,7 +343,6 @@ header .showcase {
 
   .contact_form_wrap {
     width: 30vw;
-    /* height: 50%; */
     background-color: #fff;
     align-self: center;
     padding: 1vw;
