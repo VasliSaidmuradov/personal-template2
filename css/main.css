@@ -108,7 +108,7 @@ header .showcase {
   height: 85vh;
   margin: auto;
 }
-header .showcase .showcase::before {
+header .showcase::before {
   content: "VS";
   position: absolute;
   top: 50%;
@@ -169,7 +169,6 @@ header .showcase span {
   font-size: 2.5vw;
   font-weight: 500;
 }
-
 #about::before {
   content: "";
   position: absolute;
@@ -245,7 +244,6 @@ header .showcase span {
   background-color: var(--base);
   align-self: center;
 }
-
 #portfolio::before {
   content: "";
   position: absolute;
@@ -306,8 +304,7 @@ header .showcase span {
   padding: 1vw;
   line-height: 1.5;
 }
-
-#contact::before {
+#contact ::before {
   content: "";
   position: absolute;
   top: 14vh;

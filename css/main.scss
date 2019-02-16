@@ -117,7 +117,7 @@ header .showcase {
   height: 85vh;
   margin: auto;
 
-  .showcase::before {
+  &::before {
     content: "VS";
     position: absolute;
     top: 50%;
@@ -186,16 +186,16 @@ header .showcase {
     font-size: 2.5vw;
     font-weight: 500;
   }
-}
 
-#about::before {
-  content: "";
-  position: absolute;
-  top: 8vh;
-  left: 13vw;
-  right: 24vw;
-  bottom: 8vh;
-  border: .8vw solid #2046f2;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 8vh;
+    left: 13vw;
+    right: 24vw;
+    bottom: 8vh;
+    border: .8vw solid #2046f2;
+  }
 }
 
 /* PORTFOLIO - WORKS */
@@ -274,18 +274,17 @@ header .showcase {
     background-color: var(--base);
     align-self: center;
   }
-}
 
-#portfolio::before {
-  content: "";
-  position: absolute;
-  top: 14vh;
-  left: 20vw;
-  right: 16vw;
-  bottom: 9vh;
-  border: .8vw solid #2046f2;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 14vh;
+    left: 20vw;
+    right: 16vw;
+    bottom: 9vh;
+    border: .8vw solid #2046f2;
+  }
 }
-
 
 /* SECTION BLOG */
 
@@ -348,17 +347,17 @@ header .showcase {
     padding: 1vw;
     line-height: 1.5;
   }
-}
 
-#contact::before {
-  content: "";
-  position: absolute;
-  top: 14vh;
-  left: 15vw;
-  right: 15vw;
-  bottom: 4vh;
-  border: .8vw solid #2046f2;
-  z-index: -1;
+  ::before {
+    content: "";
+    position: absolute;
+    top: 14vh;
+    left: 15vw;
+    right: 15vw;
+    bottom: 4vh;
+    border: .8vw solid #2046f2;
+    z-index: -1;
+  }
 }
 
 #form {
