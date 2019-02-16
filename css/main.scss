@@ -6,13 +6,18 @@
 :root {
   --dark-grey: #333;
   --medium-grey: #585858;
-  --base: #9e9e9e;
+  // --base: #9e9e9e;
   --blue: blue;
 }
 
+// Color variables
+$base-color: #9e9e9e;
+$border-blue: #2046f2;
+
+
 html {
   font-size: 14px;
-  color: var(--base);
+  color: $base-color;
 }
 
 body {
@@ -46,7 +51,7 @@ body {
   width: 100%;
   height: 2px;
   margin-top: 1px;
-  background-color: #2046f2;
+  background-color: $border-blue;
   transition: transform .2s ease-out;
 }
 
@@ -64,7 +69,7 @@ body {
   text-decoration: none;
   display: inline-block;
   padding: .8rem 2rem;
-  border: 2px solid #2046f2;
+  border: 2px solid $border-blue;
   border-radius: 1.5rem;
   text-transform: capitalize;
 }
@@ -210,7 +215,7 @@ header .showcase {
     left: 13vw;
     right: 24vw;
     bottom: 8vh;
-    border: .8vw solid #2046f2;
+    border: .8vw solid $border-blue;
   }
 }
 
@@ -280,14 +285,14 @@ header .showcase {
 
     .active {
       background-color: #fff;
-      border: 2px solid var(--base);
+      border: 2px solid $base-color;
     }
   }
 
   .work_nav_item {
     width: .7rem;
     height: .7rem;
-    background-color: var(--base);
+    background-color: $base-color;
     align-self: center;
   }
 
@@ -298,7 +303,7 @@ header .showcase {
     left: 20vw;
     right: 16vw;
     bottom: 9vh;
-    border: .8vw solid #2046f2;
+    border: .8vw solid $border-blue;
   }
 }
 
@@ -371,7 +376,7 @@ header .showcase {
     left: 15vw;
     right: 15vw;
     bottom: 4vh;
-    border: .8vw solid #2046f2;
+    border: .8vw solid $border-blue;
     z-index: -1;
   }
 }
@@ -388,7 +393,7 @@ header .showcase {
     font-size: .8rem;
     font-weight: 700;
     padding-left: .5rem;
-    border: 1 solid #9e9e9e;
+    border: 1 solid $base-color;
   }
 
   input[type="text"] {
@@ -404,13 +409,13 @@ header .showcase {
 
   input[type="submit"] {
     background-color: #fff;
-    color: #2046f2;
+    color: $border-blue;
     font-weight: 700;
     text-transform: capitalize;
     padding: 0.6rem 2.4rem;
     margin-top: 1.5rem;
     margin-left: auto;
-    border: .11rem solid #2046f2;
+    border: .11rem solid $border-blue;
   }
 }
 
@@ -429,6 +434,6 @@ footer {
   .nav_logo_text {
     font-size: 2vw;
     font-weight: 800;
-    color: var(--base);
+    color: $base-color;
   }
 }

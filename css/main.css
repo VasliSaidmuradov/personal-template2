@@ -5,13 +5,12 @@
 :root {
   --dark-grey: #333;
   --medium-grey: #585858;
-  --base: #9e9e9e;
   --blue: blue;
 }
 
 html {
   font-size: 14px;
-  color: var(--base);
+  color: #9e9e9e;
 }
 
 body {
@@ -236,12 +235,12 @@ header .showcase span {
 }
 #portfolio .work_nav .active {
   background-color: #fff;
-  border: 2px solid var(--base);
+  border: 2px solid #9e9e9e;
 }
 #portfolio .work_nav_item {
   width: 0.7rem;
   height: 0.7rem;
-  background-color: var(--base);
+  background-color: #9e9e9e;
   align-self: center;
 }
 #portfolio::before {
@@ -361,7 +360,7 @@ footer .footer_wrap {
 footer .nav_logo_text {
   font-size: 2vw;
   font-weight: 800;
-  color: var(--base);
+  color: #9e9e9e;
 }
 
 /*# sourceMappingURL=main.css.map */
