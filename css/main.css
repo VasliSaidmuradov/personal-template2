@@ -148,8 +148,8 @@ header .showcase span {
 }
 #about .showcase h3 {
   font-size: 4vw;
-  color: var(--medium-grey);
   font-weight: 800;
+  color: var(--medium-grey);
 }
 #about .showcase p {
   font-size: 1vw;
@@ -204,8 +204,8 @@ header .showcase span {
 }
 #portfolio .work_desc h3 {
   font-size: 4vw;
-  color: var(--medium-grey);
   font-weight: 800;
+  color: var(--medium-grey);
 }
 #portfolio .work_desc p {
   font-size: 1vw;
@@ -341,12 +341,12 @@ header .showcase span {
 #form input[type=submit] {
   background-color: #fff;
   color: #2046f2;
+  font-weight: 700;
   text-transform: capitalize;
   padding: 0.6rem 2.4rem;
-  border: 0.11rem solid #2046f2;
   margin-top: 1.5rem;
-  font-weight: 700;
   margin-left: auto;
+  border: 0.11rem solid #2046f2;
 }
 
 /* FOOTER */
@@ -359,9 +359,9 @@ footer .footer_wrap {
   justify-content: space-between;
 }
 footer .nav_logo_text {
-  color: var(--base);
   font-size: 2vw;
   font-weight: 800;
+  color: var(--base);
 }
 
 /*# sourceMappingURL=main.css.map */

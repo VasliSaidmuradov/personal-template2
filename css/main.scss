@@ -96,8 +96,12 @@ body {
 
   .nav_logo_text {
     color: var(--medium-grey);
-    font-size: 3vw;
-    font-weight: 800;
+
+    font: {
+      //sass nested propety, it's same as:
+      size: 3vw; //font-size: 3vw;
+      weight: 800; //font-weight: 800;
+    }
   }
 
   .nav_menu {
@@ -131,16 +135,23 @@ header .showcase {
 
   span {
     color: #fff;
-    font-size: 14vw;
-    font-weight: 700;
+
+    font: {
+      size: 14vw;
+      weight: 700;
+    }
+
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 10px 18px 35px rgba(88, 88, 88, 0.23);
+
+    text: {
+      align: center;
+      transform: uppercase;
+      shadow: 10px 18px 35px rgba(88, 88, 88, 0.23);
+    }
   }
 }
 
@@ -161,13 +172,15 @@ header .showcase {
 
     h3 {
       font-size: 4vw;
-      color: var(--medium-grey);
       font-weight: 800;
+      color: var(--medium-grey);
     }
 
     p {
-      font-size: 1vw;
-      font-weight: 700;
+      font: {
+        size: 1vw;
+        weight: 700;
+      }
     }
   }
 
@@ -182,9 +195,12 @@ header .showcase {
     position: absolute;
     right: 27vw;
     bottom: 10vh;
-    font-family: "Allura", cursive;
-    font-size: 2.5vw;
-    font-weight: 500;
+
+    font: {
+      family: "Allura", cursive;
+      size: 2.5vw;
+      weight: 500;
+    }
   }
 
   &::before {
@@ -226,8 +242,8 @@ header .showcase {
 
     h3 {
       font-size: 4vw;
-      color: var(--medium-grey);
       font-weight: 800;
+      color: var(--medium-grey);
     }
 
     p {
@@ -389,12 +405,12 @@ header .showcase {
   input[type="submit"] {
     background-color: #fff;
     color: #2046f2;
+    font-weight: 700;
     text-transform: capitalize;
     padding: 0.6rem 2.4rem;
-    border: .11rem solid #2046f2;
     margin-top: 1.5rem;
-    font-weight: 700;
     margin-left: auto;
+    border: .11rem solid #2046f2;
   }
 }
 
@@ -411,8 +427,8 @@ footer {
   }
 
   .nav_logo_text {
-    color: var(--base);
     font-size: 2vw;
     font-weight: 800;
+    color: var(--base);
   }
 }
