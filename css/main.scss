@@ -290,34 +290,34 @@ header .showcase {
 
 /* SECTION BLOG */
 
-#blog .blog_post_wrap {
-  width: 80%;
-  margin: auto;
-  /* background-color: aquamarine; */
-  display: flex;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  justify-content: space-between;
+#blog {
+  .blog_post_wrap {
+    width: 80%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-content: space-between;
+
+    .blog_post_img,
+    .blog_post_desc {
+      width: 100%;
+    }
+
+    .blog_post {
+      width: 32%;
+    }
+
+    .blog_post_img img {
+      width: 100%;
+    }
+  }
+
+  .main_header {
+    padding-top: 3vw;
+    margin-bottom: 3vw;
+  }
 }
-
-#blog .main_header {
-  padding-top: 3vw;
-  margin-bottom: 3vw;
-}
-
-#blog .blog_post_wrap .blog_post {
-  width: 32%;
-
-}
-
-#blog .blog_post_wrap .blog_post_img,
-#blog .blog_post_wrap .blog_post_desc {
-  width: 100%;
-}
-
-#blog .blog_post_wrap .blog_post_img img {
-  width: 100%;
-}
-
 
 /* SECTION CONTACT */
 
