@@ -143,68 +143,79 @@ header .showcase {
   }
 }
 
-// header .showcase span {
-//   color: #fff;
-//   font-size: 14vw;
-//   font-weight: 700;
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   -webkit-transform: translate(-50%, -50%);
-//   transform: translate(-50%, -50%);
-//   text-align: center;
-//   text-transform: uppercase;
-//   text-shadow: 10px 18px 35px rgba(88, 88, 88, 0.23);
-// }
-
-// header .showcase::before {
-//   content: "VS";
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   -webkit-transform: translate(-50%, -50%);
-//   transform: translate(-50%, -50%);
-//   font-size: 35vw;
-//   font-weight: 800;
-//   opacity: .05;
-// }
-
-
 /* MAIN */
 
 /* SECTION ABOUT */
 
 #about {
   position: relative;
+
+  .showcase {
+    position: absolute;
+    right: 7vw;
+    bottom: 15vw;
+    width: 27.5vw;
+    /* height: 30vh; */
+    padding: 1rem;
+    line-height: 1.5;
+
+    h3 {
+      font-size: 4vw;
+      color: var(--medium-grey);
+      font-weight: 800;
+    }
+
+    p {
+      font-size: 1vw;
+      font-weight: 700;
+    }
+  }
+
+  img {
+    position: absolute;
+    bottom: 0;
+    left: 20vw;
+    width: 30vw;
+  }
+
+  .author {
+    position: absolute;
+    right: 27vw;
+    bottom: 10vh;
+    font-family: "Allura", cursive;
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+
 }
 
-#about .showcase {
-  position: absolute;
-  right: 7vw;
-  bottom: 15vw;
-  width: 27.5vw;
-  /* height: 30vh; */
-  padding: 1rem;
-  line-height: 1.5;
-}
+// #about .showcase {
+//   position: absolute;
+//   right: 7vw;
+//   bottom: 15vw;
+//   width: 27.5vw;
+//   /* height: 30vh; */
+//   padding: 1rem;
+//   line-height: 1.5;
+// }
 
-#about .showcase h3 {
-  font-size: 4vw;
-  color: var(--medium-grey);
-  font-weight: 800;
-}
+// #about .showcase h3 {
+//   font-size: 4vw;
+//   color: var(--medium-grey);
+//   font-weight: 800;
+// }
 
-#about .showcase p {
-  font-size: 1vw;
-  font-weight: 700;
-}
+// #about .showcase p {
+//   font-size: 1vw;
+//   font-weight: 700;
+// }
 
-#about img {
-  position: absolute;
-  bottom: 0;
-  left: 20vw;
-  width: 30vw;
-}
+// #about img {
+//   position: absolute;
+//   bottom: 0;
+//   left: 20vw;
+//   width: 30vw;
+// }
 
 #about::before {
   content: "";
@@ -216,14 +227,14 @@ header .showcase {
   border: .8vw solid #2046f2;
 }
 
-#about .author {
-  position: absolute;
-  right: 27vw;
-  bottom: 10vh;
-  font-family: "Allura", cursive;
-  font-size: 2.5vw;
-  font-weight: 500;
-}
+// #about .author {
+//   position: absolute;
+//   right: 27vw;
+//   bottom: 10vh;
+//   font-family: "Allura", cursive;
+//   font-size: 2.5vw;
+//   font-weight: 500;
+// }
 
 
 
